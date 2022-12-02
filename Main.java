@@ -1,6 +1,15 @@
+/**
+ * Dog walking program (Turner final)
+ * @author Jake A
+ * @version 1
+ */
+
 import java.util.Scanner;
-// Dog walker
 class Main {
+  /**
+   * Asks for user input, and returns if the dog has been walked enough or not.
+   * Prints the output of Dog's exercise method
+   */
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
     System.out.println("How much does your dog weigh?");
